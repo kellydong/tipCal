@@ -16,19 +16,19 @@ The following **required** functionality is complete:
 The following **optional** features are implemented:
 
 * [ ] UI animations
-* [ ] Remembering the bill amount across app restarts (if <10mins)
+* [x] Remembering the bill amount across app restarts (if <10mins)
 * [ ] Using locale-specific currency and currency thousands separators.
-* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+* [x] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [x] Splitting bill between friends
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://recordit.co/3cXqk14lmo.gif' title='Video Walkthrough' width='200' alt='Video Walkthrough' />
+<img src='http://g.recordit.co/nSS3Axq2qq.gif' title='Video Walkthrough' width='200' alt='Video Walkthrough' />
 
 GIF created with [Recordit](http://recordit.co).
 
