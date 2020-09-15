@@ -30,6 +30,8 @@ class ViewController: UIViewController {
         billField.text = String(bill)
         peopleField.text = String(people)
         tipControl.selectedSegmentIndex = tipPercentage
+
+        billField.becomeFirstResponder()
         
         let tipPercentages = [0.15, 0.18, 0.2]
         let tip = bill * tipPercentages[tipControl.selectedSegmentIndex]
