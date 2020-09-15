@@ -34,8 +34,9 @@ GIF created with [Recordit](http://recordit.co).
 
 ## Notes
 
-Launching the Keyboard and trouble shooting issued related to Xcode.
-Editting IBOutlet after making them already.
+Challenges:
+   * Launching the Keyboard and trouble shooting issued related to Xcode.
+   * Editting IBOutlet after making them already.
 
 ## License
 
