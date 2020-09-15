@@ -30,7 +30,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rmb-VV-aml">
-                                <rect key="frame" x="279" y="272" width="74" height="21"/>
+                                <rect key="frame" x="241" y="272" width="112" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -53,7 +53,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vaw-hE-wl7">
-                                <rect key="frame" x="279" y="438" width="74" height="21"/>
+                                <rect key="frame" x="241" y="438" width="112" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -114,7 +114,18 @@
                             <outletCollection property="gestureRecognizers" destination="3Oa-G5-ffq" appends="YES" id="1v8-bw-M9F"/>
                         </connections>
                     </view>
-                    <navigationItem key="navigationItem" title="Tip Calculator" id="Zq6-rd-34v"/>
+                    <navigationItem key="navigationItem" title="Tip Calculator" id="Zq6-rd-34v">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="nun-V7-L2G">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="sBW-qc-Zr3">
+                                <rect key="frame" x="302" y="7" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Setting"/>
+                            </button>
+                            <connections>
+                                <segue destination="y5E-hH-x6F" kind="push" id="HAh-Sw-Y7R"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="billField" destination="eYx-le-8eR" id="SZY-cF-lRQ"/>
                         <outlet property="peopleField" destination="BxF-e5-aSK" id="UXp-gF-Bog"/>
@@ -132,6 +143,22 @@
                 </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1042.0289855072465" y="117.85714285714285"/>
+        </scene>
+        <!--Setting View Controller-->
+        <scene sceneID="7x5-ci-adj">
+            <objects>
+                <viewController id="y5E-hH-x6F" customClass="SettingViewController" customModule="tipCal" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XnK-JH-gMe" customClass="GLKView">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="cQN-Ka-tXl"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="9ob-Jm-1e6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7RK-y1-1Wd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1854" y="116"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="5PJ-rW-ffn">

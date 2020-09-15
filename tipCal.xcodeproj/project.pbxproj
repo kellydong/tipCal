@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49023FBA251041F200120669 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49023FB9251041F200120669 /* SettingViewController.swift */; };
 		4940707B251022A700C6AAC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4940707A251022A700C6AAC4 /* AppDelegate.swift */; };
 		4940707D251022A700C6AAC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4940707C251022A700C6AAC4 /* SceneDelegate.swift */; };
 		4940707F251022A700C6AAC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4940707E251022A700C6AAC4 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49023FB9251041F200120669 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		49407077251022A700C6AAC4 /* tipCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tipCal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4940707A251022A700C6AAC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4940707C251022A700C6AAC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				4940707A251022A700C6AAC4 /* AppDelegate.swift */,
 				4940707C251022A700C6AAC4 /* SceneDelegate.swift */,
 				4940707E251022A700C6AAC4 /* ViewController.swift */,
+				49023FB9251041F200120669 /* SettingViewController.swift */,
 				49407080251022A700C6AAC4 /* Main.storyboard */,
 				49407083251022A900C6AAC4 /* Assets.xcassets */,
 				49407085251022A900C6AAC4 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 				4940707F251022A700C6AAC4 /* ViewController.swift in Sources */,
 				4940707B251022A700C6AAC4 /* AppDelegate.swift in Sources */,
 				4940707D251022A700C6AAC4 /* SceneDelegate.swift in Sources */,
+				49023FBA251041F200120669 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
